@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sample test suite" >
+  <test name="Login Test">
+    <classes>
+      <class name="com.selenium.examples.IndividualTask"/>
+    </classes>
+    </test>
+  <!-- <test name="Login Test">
+    <classes>
+      <class name="com.selenium.examples.Examples"/>
+    </classes>
+  </test> -->
+</suite>
+
+<!-- <suite name="SampleSuite2" verbose="1" >
+  <test name="SampleTest" >
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+       <class name="com.selenium.examples.VayuGA" />
+    </classes>
+  </test>
+   <test name="Sample2Test" >
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+       <class name="com.selenium.examples.VayuGA" />
+    </classes>
+  </test>
+ 
+</suite> -->
+
+<!-- <suite name="Parallel test suite" parallel="tests">
+  <test name="Firefox Test">
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.selenium.examples.Orange1"/>
+    </classes>
+  </test>
+  <test name="Chrome Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.selenium.examples.Orange1"/>
+    </classes>
+  </test>
+</suite> -->
