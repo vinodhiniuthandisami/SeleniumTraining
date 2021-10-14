@@ -2,7 +2,7 @@
 <suite name="sample test suite" >
   <test name="Login Test">
     <classes>
-      <class name="com.selenium.examples.IndividualTask"/>
+      <class name="com.selenium.examples.Examples"/>
     </classes>
     </test>
   <!-- <test name="Login Test">
