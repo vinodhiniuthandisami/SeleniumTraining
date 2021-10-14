@@ -28,13 +28,13 @@
   <test name="Firefox Test">
   <parameter name="browser" value="Firefox"/>
     <classes>
-      <class name="com.jenkins.VayuGA.SwagLabs"/>
+      <class name="com.selenium.examples.SwagLabs"/>
     </classes>
   </test>
   <test name="Chrome Test">
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.jenkins.VayuGA.SwagLabs"/>
+      <class name="com.selenium.examples.SwagLabs"/>
     </classes>
   </test>
 </suite>
